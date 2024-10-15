@@ -11,8 +11,8 @@ This project demonstrates the use of TypeScript classes to represent different v
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Classes and Functionality](#classes-and-functionality)
+- [Usage](#usage)
 - [Walkthrough Video](#walkthrough-video)
 - [Grading Criteria](#grading-criteria)
 - [License](#license)
@@ -47,16 +47,6 @@ This project demonstrates the use of TypeScript classes to represent different v
    - npm run start
 ```
 
-# Usage
-
-When you invoke the application, you will be prompted to choose between creating a car, truck, or motorbike. Each vehicle type will prompt for unique details:
-
-- Car: Basic vehicle details such as make, model, and color.
-- Truck: In addition to the car details, the Truck class will prompt for additional truck-specific details like payload capacity.
-- Motorbike: In addition to the car details, the Motorbike class will ask for motorbike-specific details like engine displacement.
-
-After entering all the details, you will be able to view the completed vehicle with its respective properties.
-
 ## Classes and Functionality
 
 This application features the following classes:
@@ -73,6 +63,20 @@ Provides a unique action that only trucks can perform.
 ### Motorbike Class
 
 Inherits from the Car class and adds properties specific to motorbikes (e.g., engine displacement).
+
+# Usage
+
+When you invoke the application, you will be prompted to choose between creating a car, truck, or motorbike. Each vehicle type will prompt for unique details:
+
+- Car: Basic vehicle details such as make, model, and color.
+- Truck: In addition to the car details, the Truck class will prompt for additional truck-specific details like payload capacity.
+- Motorbike: In addition to the car details, the Motorbike class will ask for motorbike-specific details like engine displacement.
+
+After entering all the details, you will be able to view the completed vehicle with its respective properties.
+
+## Walkthrough Video
+
+Click [here](https://drive.google.com/file/d/1SOgkVg7klLg0hVTV5DJ6C1inlLmv76xs/view?usp=sharing) to watch a walkthrough video of the Vehicle Builder CLI application.
 
 # License
 
